@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game-header">
+        <h1>
+            Tic tack Toe
+        </h1>
+    </div>
+
+    <div class="choose-sign-box">
+        <h2>choose <span class="x-sign" id="xx"><i class="fas fa-times"></i></span> or
+                   <span class="o-sign" id="oo"><i class="far fa-circle"></i></span>
+        
+        </h2>
+
+        <h2 class="firstMoveClass">first move: <span id="fmPlayer">Player</span>  or <span id="fmPc">Pc</span></h2>
+    </div>
+
+    <div class="newGame">
+        <button type="button" class="btn btn-success" id="startNewGame">NEW GAME</button>
+    </div>
+
+    <div class="gameBoard ">
+
+        <table>
+            <tr class="first-table-row" >
+                <td class="first-row-1-td cell empty" id="a1"></td>
+                <td class="first-row-1-td cell empty" id="a2"></td>
+                <td class="first-row-1-td cell empty" id="a3"></td>
+            </tr>
+            <tr class="table-rows">
+                <td  class="second-row-td cell empty" id="a4"></td>
+                <td class="second-row-td cell empty" id="a5"></td>
+                <td class="second-row-td cell empty" id="a6"></td>
+            </tr>
+            <tr class="table-rows">
+                <td class="third-row-1-td cell empty" id="a7"></td>
+                <td class="third-row-1-td cell empty" id="a8"></td>
+                <td class="third-row-1-td cell empty" id="a9"></td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

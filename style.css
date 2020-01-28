@@ -1,0 +1,90 @@
+
+html , body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+
+.game-header{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.choose-sign-box{
+    text-align: center;
+}
+
+.gameBoard{
+    visibility:hidden;
+    width: 300px;
+    height: 300px;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 0;
+}
+
+table{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+td{
+    margin: 0;
+    padding: 0;
+}
+
+tr{
+    background-color: antiquewhite;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.newGame{
+    text-align: center;
+}
+
+.first-row-1-td{
+    border-top: 2px  solid antiquewhite;
+    border-bottom:  2px solid black;
+    border-right: 2px solid black;
+}
+
+.second-row-td{
+    border-bottom:  2px solid black;
+    border-right: 2px solid black;
+}
+
+.third-row-1-td{
+    border-right: 2px solid black;
+} 
+
+tr:nth-child(1) td:nth-child(3) {
+    border-right: 1px solid antiquewhite;
+}
+
+tr:nth-child(2) td:nth-child(3) {
+    border-right: 1px solid antiquewhite;
+}
+tr:nth-child(3) td:nth-child(3) {
+    border-right: 1px solid antiquewhite;
+}
+
+
+.firstMoveClass{
+    visibility:hidden;
+}
+
